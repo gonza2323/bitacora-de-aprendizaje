@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Personal Blog</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            background-color: #e9ecef;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: #666;
+        }
+
+        .blog-title {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin: 0;
+        }
+
+        .blog-subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin: 0.5rem 0 0 0;
+            opacity: 0.9;
+            font-style: italic;
+        }
+
+        .about-section {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            margin: 2rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            border-left: 5px solid #667eea;
+        }
+
+        .about-title {
+            color: #667eea;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .blog-entry {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .blog-entry:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        }
+
+        .entry-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .entry-body {
+            color: #666;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+
+        .footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .container {
+            max-width: 800px;
+        }
+
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 2rem;
+            }
+            
+            .profile-picture {
+                width: 120px;
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="profile-section">
+                <div class="profile-picture">
+                    📷
+                </div>
+                <h1 class="blog-title">Your Name</h1>
+                <p class="blog-subtitle">Bitácora de Aprendizaje</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- About Me Section -->
+        <section class="about-section">
+            <h2 class="about-title">About Me</h2>
+            <p class="entry-body">
+                Welcome to my personal blog! This is where I share my thoughts, experiences, and insights about life. 
+                I'm passionate about writing and connecting with others through storytelling. Here you'll find my 
+                reflections on various topics that interest me, from daily observations to deeper philosophical musings. 
+                Thank you for taking the time to read my words.
+            </p>
+        </section>
+
+        <!-- Blog Entries -->
+        <section class="blog-entries">
+            <!-- Sample Blog Entry 1 -->
+            <article class="blog-entry">
+                <h2 class="entry-title">My First Blog Post</h2>
+                <div class="entry-body">
+                    <p>Welcome to my blog! This is my very first post, and I'm excited to start this journey of sharing my thoughts and experiences with you. I've always enjoyed writing, and having a personal space to express myself feels like a natural next step.</p>
+                    
+                    <p>I hope to write about a variety of topics - from personal reflections to things I'm learning, books I'm reading, and observations about the world around me. Thank you for being here at the beginning of this adventure.</p>
+                </div>
+            </article>
+
+            <!-- Sample Blog Entry 2 -->
+            <article class="blog-entry">
+                <h2 class="entry-title">Thoughts on Morning Routines</h2>
+                <div class="entry-body">
+                    <p>I've been experimenting with different morning routines lately, trying to find what works best for me. There's something magical about the early hours of the day - the quiet, the fresh start, the sense of possibility that comes with a new dawn.</p>
+                    
+                    <p>Currently, my routine includes some light stretching, a cup of coffee while looking out the window, and a few minutes of reading. It's simple, but it sets a positive tone for the entire day. I've found that having this consistent start helps me feel more grounded and intentional about how I spend my time.</p>
+                </div>
+            </article>
+
+            <!-- Sample Blog Entry 3 -->
+            <article class="blog-entry">
+                <h2 class="entry-title">The Art of Slowing Down</h2>
+                <div class="entry-body">
+                    <p>In our fast-paced world, I've been learning the value of slowing down. It's counterintuitive, but taking time to pause and breathe actually makes me more productive and creative in the long run.</p>
+                    
+                    <p>Whether it's savoring a meal without distractions, taking a walk without listening to anything, or simply sitting quietly for a few minutes, these moments of stillness have become precious to me. They remind me that life isn't just about doing - it's also about being.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Your Name. A simple personal blog.</p>
+        </div>
+    </footer>
+</body>
+</html>
