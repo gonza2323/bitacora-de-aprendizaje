@@ -112,3 +112,9 @@ body {
         height: 120px;
     }
 }
+
+img {
+    display: block;
+    margin: 16px 0;
+    width: 100%;
+}
